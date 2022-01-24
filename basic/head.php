@@ -22,6 +22,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
 <?php
 if(defined('_INDEX_')) { // index에서만 실행
     include G5_BBS_PATH.'/newwin.inc.php'; // 팝업레이어
+    $num = 100;
 }
 ?>
     <div class="wrap">
@@ -29,9 +30,8 @@ if(defined('_INDEX_')) { // index에서만 실행
             <div class="hd_top">
                 <div class="container">
                     <div class="left">
-                        (주)동산텍스
-                        에어 샌드위치메쉬 및 면직물(canvas) 전문 생산업체 입니다.
-                        신발원단, 가방지, 스크린골프장 스크린메쉬원단, 산업용 원단 주문생산합니다
+                    케이에스메이트는 고객님께서 필요로 하시는 쾌적하고 편안한 생활공간을 만들고
+                    지켜드리는 빌딩 및 시설 종합관리 회사입니다.
                     </div>
                     <div class="right">
                         <a href="/bbs/login.php"><i class="fa fa-sign-in"></i></a>
@@ -42,17 +42,11 @@ if(defined('_INDEX_')) { // index에서만 실행
                 <div class="container">
                     <h1>
                         <a href="/">
-                            <img src="<?php echo G5_THEME_URL ?>/img/logo.png" alt="logo">
+                            <img src="<?php echo G5_THEME_URL ?>/img/logo02.png" alt="logo">
                         </a>
                     </h1>
                     <nav class="gnb">
-                        <ul>
-                            <li><a href="#">에어 샌드위치메쉬</a></li>
-                            <li><a href="#">면직물(CANVAS)</a></li>
-                            <li><a href="#">회사소개</a></li>
-                            <li><a href="#">보유장비</a></li>
-                            <li><a href="/bbs/board.php?bo_table=qa">고객문의</a></li>
-                        </ul>
+                        <?php include(G5_THEME_PATH.'/doc/aside.php')?>
                     </nav>
                 </div>
 

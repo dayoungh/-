@@ -1,4 +1,6 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
 
 .container {display: flex; width: 1200px; margin: 0 auto; padding: 0 15px;}
 figure {margin: 0; padding: 0;}
@@ -13,24 +15,36 @@ address {font-style: normal;}
 .hd .gnb>ul {display: flex; gap: 40px; font-size: 17px;}
 
 .main {position: relative;}
-.main .m_slider figure {height: 500px;}
-.main .m_slider .itm01 {background: url(../img/slide01.jpg) no-repeat center center/cover;}
-.main .m_slider .itm02 {background: url(../img/slide02.jpg) no-repeat center center/cover;}
-.main .m_slider .itm03 {background: url(../img/slide03.jpg) no-repeat center center/cover;}
+.main .m_slider figure {height: 600px;}
+.main .m_slider .itm01 {background: url(../img/main01.jpg) no-repeat center center/cover;}
+.main .m_slider .itm02 {background: url(../img/main02.jpg) no-repeat center center/cover;}
+.main .m_slider .itm03 {background: url(../img/main03.jpg) no-repeat center center/cover;}
 
-.main .slogan {position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 1200px; color: #f8f9fa; text-align: center;}
-.main .slogan h2 {font-size: 60px; margin-bottom: 30px; text-shadow: 0 0 2px rgba(0,0,0,0.6);}
-.main .slogan p {font-size: 17px; text-shadow: 0 0 2px rgba(0,0,0,0.6);}
-
-
-.subpage {line-height: 400px; height: 400px; background: url(../img/slide01.jpg) center center/cover;}
-.subpage h2 {text-align: center; font-size: 40px; font-weight: 900; color: #fff;}
-
-.subdetail {padding: 100px 0; min-height: 500px;}
+.main .slogan {position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 1200px; color: #f8f9fa; text-align: left;}
+.main .slogan h2 {font-family: 'Source Serif 4', sans-serif; font-style: italic; font-weight: 300; font-size: 25px; letter-spacing: 0.3em; margin-bottom: 5px; text-shadow: 0 0 3px rgba(0,0,0,0.6);}
+.main .slogan h3 {font-size: 45px; margin-bottom: 10px; text-shadow: 0 0 3px rgba(0,0,0,0.6);}
+.main .slogan p {font-size: 20px; text-shadow: 0 0 3px rgba(0,0,0,0.6);}
 
 
+.sub_title {line-height: 200px; height: 400px; background: url(../img/banner02.jpg) center center/cover;}
+.sub_title h2 {text-align: center; font-size: 40px; font-weight: 500; color: #fff; text-shadow: 0 0 3px rgba(0,0,0,0.6);}
+
+.sub_page {min-height: 500px;}
+.sub_page article {width: calc(100% - 300px); padding: 0 50px 50px 0; border-right: 1px solid #eee;}
+.sub_page aside {width: 300px; padding: 50px 0 50px 50px;}
+
+.sub_page article h2 {font-size:21px; font-weight: 500; line-height: 40px; border-bottom: 1px solid #eee;
+margin-bottom: 40px; color: #666;}
+.sub_page article h2 small {font-size: 13px; font-weight: 300; color: #666;}
+
+.sub_page .aside li {line-height: 40px; margin-bottom: 5px; border: 1px solid #ddd;
+padding: 0 15px;}
+.sub_page .aside li.on {background: #D71921; color: #fff;}
+.sub_page .aside li a {display: block;}
 
 
+.basic_li {}
+.basic_li a {font-size: 15px; width: 190px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
 
 .customer {padding: 80px 0;}
 .customer .container {width: 1230px; padding: 0 0;}
@@ -52,3 +66,10 @@ border-radius: 50%; line-height: 1; width: 50px; height: 50px; color: #fff;}
 .footer {font-size: 13px; padding: 40px 0; border-top: 1px solid #ced4da; text-align: center; background: #f8f9fa;}
 .footer ul {width: 600px; margin: 0 auto;}
 .footer ul li {display: inline-block;}
+
+
+/* m011 */
+.ceo {letter-spacing: -0.025em;}
+.ceo h2 {font-family: 'Nanum Myeongjo', serif; color: #333; font-weight: 800; font-size: 30px; margin-bottom: 20px;}
+.ceo p {font-weight: 300; font-size: 15px; margin-bottom: 50px; line-height: 1.7;}
+.ceo strong {display: block; font-family: 'Nanum Myeongjo', serif; font-weight: 700; font-size: 18px;}

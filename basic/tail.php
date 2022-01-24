@@ -20,14 +20,14 @@ if(!defined('_INDEX_')) {
 
 <footer class="footer">
             <ul>
-                <li>대표 : 이두열</li>
-                <li>사업자등록번호 : 615-81-18295</li>
-                <li>경상남도 김해시 생림면 나전리 301-3</li>
-                <li>Tel : 055-329-3684</li>
-                <li>Fax : 055-329-3890</li>
-                <li>e-mail : dstex@hanmail.net</li>
+            <li>대표이사 : 이덕희</li>
+                <li>사업분야</li>
+                <li>견적의뢰</li>
+                <li>보유업면허</li>
+                <li>오시는길</li>
+                <li>채용공고</li>
             </ul>
-            <address>© 동산텍스 All Rights Reserved.</address>
+            <address>© 2015 KSMATE.CO.Ltd. ALL RIGHTS RESERVED.</address>
         </footer>
     </div>
     <script src="<?php echo G5_THEME_URL ?>/js/slick.min.js"></script>
@@ -40,6 +40,10 @@ if(!defined('_INDEX_')) {
     	<i class="fa fa-arrow-up" aria-hidden="true"></i><span class="sound_only">상단으로</span>
     </button>
     <script>
+    var pageNum = <?=$num?>;
+
+    $('aside li').eq(pageNum-1).addClass('on');
+
     $(function() {
         $("#top_btn").on("click", function() {
             $("html, body").animate({scrollTop:0}, '500');
