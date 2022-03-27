@@ -48,7 +48,7 @@ if (G5_IS_MOBILE) {
 if($config['cf_add_meta'])
     echo $config['cf_add_meta'].PHP_EOL;
 ?>
-<title><?php echo $g5_head_title; ?></title>
+<title>KSmate</title>
 <?php
 $shop_css = '';
 if (defined('_SHOP_')) $shop_css = '_shop';

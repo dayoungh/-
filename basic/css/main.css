@@ -73,3 +73,18 @@ border-radius: 50%; line-height: 1; width: 50px; height: 50px; color: #fff;}
 .ceo h2 {font-family: 'Nanum Myeongjo', serif; color: #333; font-weight: 800; font-size: 30px; margin-bottom: 20px;}
 .ceo p {font-weight: 300; font-size: 15px; margin-bottom: 50px; line-height: 1.7;}
 .ceo strong {display: block; font-family: 'Nanum Myeongjo', serif; font-weight: 700; font-size: 18px;}
+
+
+/* m021 */
+.work {}
+.work ul {display: flex; padding: 30px 0;}
+.work ul li {flex: 1; padding: 0 10px;}
+.work .txt {margin: 10px 0 0 0; text-align: center;}
+.work .txt strong {display: block; font-weight: 500; color: #333; margin-bottom: 5px;}
+.work .txt p {font-size: 14px; font-weight: 300;}
+
+
+/* m031 */
+.video {width: 1200px; margin: 0 auto; text-align: center;}
+.video iframe {}
+strong {display: block; margin: 0 auto; line-height: 20px; text-align: center; font-size: 35px; color: #333;}
